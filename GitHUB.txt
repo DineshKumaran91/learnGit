@@ -1,0 +1,20 @@
+GitHub --> is Remote repo and it's open source platform.
+ Having many features like to keep only isses and keep copy of project from other project use option fork
+ 
+ReadME --> Uses to show details about the project in git.
+
+- we can push/pul the codes from local repo to remote repo . so other developer can download the same codes to his local repo.
+
+$git remote add origin https://github.com/DineshKumaran91/test.git  --> to communicate with particular github repo from local
+
+$git push origin master --> uses to push particular branch files to git.
+
+$git push origin dine  --> just navigate to the particular branch and and run git push origin with branch name.
+
+$git pull origin master --> uses to download the new file created in gitHub
+
+$git clone https://github.com/DineshKumaran91/test.git --> can copy all the files from GITHUB repo to local if any one need the same project
+
+Bare Repo - uses only to store files.
+
+$git --bare init  --> uses to creare the bare repo.

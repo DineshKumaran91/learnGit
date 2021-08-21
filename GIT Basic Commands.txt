@@ -1,0 +1,78 @@
+Git -  is Version control system.
+ - Common remote repo
+ - Easily merge the codes written by mutilple developer in their local system.
+ - If we are getting error in app after some particular commit, we can easily revert back to pervious committed codes.
+
+
+Commands:
+
+$git init --> To create local repo.. also it creates a ".git" folder which contains some files and folders - Which uses to keep the commit logs.
+	
+$touch 123 --> uses to create a file
+
+$git status --> if any file/changes_in_file is not added/commit to staging/local_repo will be shown in red colour.
+
+$git add 123 --> uses to move the file to staging area.
+
+$git rm --cached 123 --> uses to remove the file from staged area
+
+$git add *.txt or $git add *.html --> will be uses to add the particular extentions to staging area.
+
+$git diff --> uses to show the eaxct changes in same files present in local_repo and local-folder.
+$git diff one.txt --> uses to show the changes in particular file.
+
+$ git commit one.txt -m "add your message" --> uses to commit files to local_repo and also add some text meesage for future reference
+
+$git config user.name 'DineshKumaran' --> uses to add local user name who uses the git
+
+$git config user.email "d.kumaran.m@gmail.com" --> uses to add local user's mail ID
+
+$git log --> will show all the commits
+$git log --oneline --> show each logs in single line
+
+
+$touch .gitignore --> uses to create git ignore file where we can specify the file/folder names which we do not want to commit to local_repo. So open the ".gitingnore" file and mention the file/folder names which we need to exclude from commits.
+
+
+
+Branches - if we are using a version for a app and some new version come then we creare a brach for new version..so the old version will ne running in exiting branch and new version will be running in new branch.. When ever we feel everything looks good then we can merge the branches
+
+new brach will be having the files whater in master branch.. also we can create a new files then stage & commit in this brach,but these new files wont be reflect in master branch
+
+$git branch --> will list out the available branches
+
+$git branch dinesh --> will create the branch with named as dinesh
+$git checkout -b dine --> will create the brach dine and navigate to it automatically
+
+$git checkout dinesh --> will navigate the dinesh branch
+
+$git branch -d dinesh --> uses to delete the branch
+
+$git checkout . --> uses to remove the connects updated on some files which or not staged yet.
+
+$git checkout 291520fcce1f922b51dfaf0ff0e820f14fa31b48 --> particular hash file to jump back to particular commit.
+
+$git checkout master --> to move back to actual state.
+
+$git reset -hard 291520fcce1f922b51dfaf0ff0e820f14fa31b48 --> will got to this state but cannot revent back to actual state since this command will update the master will the files present in 291520fcce1f922b51dfaf0ff0e820f14fa31b48.
+
+$git merge dine --> uses to merge the files in 2 different branches
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

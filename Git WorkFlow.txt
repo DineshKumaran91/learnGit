@@ -1,0 +1,8 @@
+Git:
+Localsystem_folder--> $git init --> .git(folder which contains git config)--> dev_files in that folder --> $git add . --> staging(cache memory) --> $git commit -m "adding file"--> local_repo
+
+
+GitHub:
+push:$git push origin master
+
+pull:$git pull origin master
